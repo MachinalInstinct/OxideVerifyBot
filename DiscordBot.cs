@@ -23,6 +23,7 @@ namespace Oxide.Plugins
 				player.ChatMessage(Syntax);
 				return;
 			}
+			
             _mySqlConnection = _mySql.OpenDb("mysql.server.ip", 3306, "mysql.server.db", "mysql.db.user", "mysql.db.user.pw", this);
 
 			var Authkey = args[0];
