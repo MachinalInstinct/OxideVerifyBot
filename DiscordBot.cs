@@ -71,7 +71,7 @@ namespace Oxide.Plugins
 				}
 			});			
 		}
-	    string Syntax = "Missing Authentication Key.\nHave you already Inititated linking on discord using .link?";
+	    	string Syntax = "Missing Authentication Key.\nHave you already Inititated linking on discord using .link?";
 		string AuthKeyWrongMessage = "Tried linking your Steam account to Discord but failed.\nWrong Link Key!";
 		string AuthMessage = "Linking your Steam account to Discord with key:";
 		string AlreadyAuthMessage = "You have already linked your accounts.";
